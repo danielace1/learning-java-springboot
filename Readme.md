@@ -19,3 +19,5 @@ mvn -version
 .\mvnw.cmd -version
 
       "vmArgs": "-Dspring.profiles.active=prod"
+
+$env:
