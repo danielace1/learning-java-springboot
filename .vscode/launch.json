@@ -1,0 +1,36 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "DemoApplication",
+      "request": "launch",
+      "mainClass": "com.example.demo.DemoApplication",
+      "projectName": "com.example-demo",
+      "vmArgs": "-Dspring.profiles.active=prod"
+    },
+    {
+      "type": "java",
+      "name": "DemoApplication(1)",
+      "request": "launch",
+      "mainClass": "com.example.demo.DemoApplication",
+      "projectName": "demo"
+    },
+    {
+      "type": "java",
+      "name": "DemoApplication(2)",
+      "request": "launch",
+      "mainClass": "io.aiven.spring.mysql.demo.DemoApplication",
+      "projectName": "io.aiven.spring.mysql-demo"
+    }
+  ]
+}
